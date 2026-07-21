@@ -10,7 +10,8 @@ def sum(a, b):
 def rest(a, b): 
     return (a-b)
 def run():
-    pass
+    print(sum(1,2))
+    print(rest(14,7))
 
 if __name__=="__main__":
     run()

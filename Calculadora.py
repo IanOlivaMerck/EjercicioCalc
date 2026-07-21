@@ -6,6 +6,7 @@ Author: I. Oliva
 """
 import string
 import Func_SumaResta as SR
+import Func_MultDiv as MD
 
 
 def run():
@@ -17,6 +18,10 @@ def run():
     result=SR.sum(a, b)
   elif operacion=="resta":
     result=SR.rest(a, b)
+  elif operacion == "mult":
+    result = MD.Mult(a,b)
+  elif operacion == "div":
+    result = MD.Div(a,b)
   print("el resultado es", result)
 
 if __name__=="__main__":
