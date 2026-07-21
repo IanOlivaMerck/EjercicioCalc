@@ -1,17 +1,17 @@
 """
-Module: Calculadora.py
-Purpose: Este módulo es el modulo principal para el uso de funciones como calculadora
+Module: Func_SumaResta.py
+Purpose: Este módulo contiene las funciones para suma y resta
 Date: 21JUL26
-Author: I. Oliva
+Author: Jose Gonzalez
 """
-
 
 def sum(a, b):
     return(a+b)
 def rest(a, b): 
     return (a-b)
 def run():
-    print(sum(5, 3))
-    print(rest(5, 3))
-if __name__ == "__main__":
+    pass
+
+if __name__=="__main__":
     run()
+ 
